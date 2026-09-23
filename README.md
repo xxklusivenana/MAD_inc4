@@ -4,6 +4,7 @@
 ### Brandon Walker
 ### Femi Ijimayowa
 ### Word Doc Link: https://studentgsu-my.sharepoint.com/:w:/r/personal/jgreen156_student_gsu_edu/Documents/MAD_Inclass4.docx?d=w6b14c453c31e4c9098740e4eef0b2c19&csf=1&web=1&e=cnupBc
+### GitHub Url: https://github.com/xxklusivenana/MAD_inc4.git
 
 ## How To Run
 Bug fix:
