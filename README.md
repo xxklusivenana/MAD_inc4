@@ -12,7 +12,12 @@ SC1;We changed the parameters of the the function so that the button can react
 SC2; We changed the value of the powerLevel
 SC3;We changed the highligh offset and shadow so that the button can be pressed
 SC4; We increased the value of the physical callback
+![Quiz Screenshot](assets/JBF-Round1-Quiz.png)
 ## Build Challenge
+![Bug Proof 1](assets/JBF-Round2-BugProof1.png)
+![Bug Proof 2](assets/JBF-Round2-BugProof2.png)
+![Bug Proof 3](assets/JBF-Round2-BugProof3.png)
+![Bug Proof 4](assets/JBF-Round2-BugProof4.png)
 ## State Defense
 The app's state is split across two levels, each owning exactly what it needs and nothing more. At the top, _MagicSpellConsoleAppState holds a single boolean, isDarkMode, which is the only thing the root widget cares about. It passes that value down to SpellConsoleScreen as a plain isDark field and hands down a VoidCallback (onToggleTheme) that the child can invoke to flip it. This is the classic "lift state up, pass callbacks down" pattern: the child never mutates isDarkMode directly — it can only ask the parent to change it, and the parent's setState() is what triggers a rebuild of the whole MaterialApp with a new ThemeData.
 
